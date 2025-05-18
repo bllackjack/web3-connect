@@ -2,9 +2,11 @@
 
 A modern web3 application that provides a seamless interface for managing and transferring your cryptocurrency tokens. Connect your wallet, view your token balances, and transfer funds with ease.
 
-## 🎥 Demo
+## 🎥 Demo Videos
 
-[Video Demo Link](https://www.loom.com/share/9e9d55db99e844bd8d77524e72a542f2?sid=c46714cb-b676-4942-b9cb-1317a9ef3a46)
+1. [Video Demo Link](https://www.loom.com/share/9e9d55db99e844bd8d77524e72a542f2?sid=c46714cb-b676-4942-b9cb-1317a9ef3a46)
+
+2. [Validation of token transfers](https://www.loom.com/share/9e9d55db99e844bd8d77524e72a542f2?sid=c46714cb-b676-4942-b9cb-1317a9ef3a46)
 
 ## 🌐 Live Demo
 
