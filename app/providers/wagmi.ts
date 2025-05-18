@@ -4,7 +4,7 @@ import { getDefaultConfig } from "@rainbow-me/rainbowkit";
 
 export const config = getDefaultConfig({
   appName: "Valory-Test-project",
-  projectId: process.env.NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID || "", // Get this from WalletConnect Cloud
+  projectId: process.env.NEXT_PUBLIC_WALLET_CONNECT_ID || "", // Get this from WalletConnect Cloud
   chains: [mainnet, sepolia, goerli, gnosis],
   transports: {
     [mainnet.id]: http(),

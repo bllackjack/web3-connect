@@ -1,43 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ValWeb3 - Token Transfer Interface
 
-## Getting Started
+A modern web3 application that provides a seamless interface for managing and transferring your cryptocurrency tokens. Connect your wallet, view your token balances, and transfer funds with ease.
 
-First, run the development server:
+## 🎥 Demo
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+[Video Demo Link] - Coming Soon
+
+## 🌐 Live Demo
+
+Visit our live demo at [https://example.com](https://example.com)
+
+## 🚀 Features
+
+- Connect to any Web3 wallet (MetaMask, Rainbow, etc.)
+- View all your token balances in one place
+- Transfer native tokens and ERC20 tokens
+- Real-time balance updates
+- Support for multiple networks
+- Special handling for stETH and USDC balances
+
+## 🛠️ Tech Stack
+
+- **Framework**: Next.js 15
+- **Styling**: Tailwind CSS
+- **Web3 Integration**:
+  - RainbowKit for wallet connection and UI
+  - wagmi for blockchain interactions
+  - ethers.js for Ethereum utilities
+- **Token Balance API**: 1inch API for fetching the list of tokens.
+
+## ⚙️ Environment Variables
+
+Create a `.env.local` file in the root directory with the following variables:
+
+```env
+NEXT_PUBLIC_WALLET_CONNECT_ID=your_wallet_connect_project_id
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🏃‍♂️ Running Locally
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Clone the repository:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+   ```bash
+   git clone https://github.com/bllackjack/web3-connect.git
+   cd web3-connect
+   ```
 
-## Learn More
+2. Install dependencies:
 
-To learn more about Next.js, take a look at the following resources:
+   ```bash
+   npm install
+   # or
+   yarn install
+   # or
+   pnpm install
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. Set up your environment variables:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+   - Copy `.env.example` to `.env.local`
+   - Fill in your API keys
 
-## Deploy on Vercel
+4. Run the development server:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   # or
+   pnpm dev
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-
-## Dev Notes
-
-- Uses Next 15, page.tsx is the entry point that renders WalletInfo component.
-- Wallet Info component uses custom hook acting as a wrapper on wagmi to connect to the wallet and fetch the balance of the wallet.
-- Wallet Info component uses RainbowKit to connect to the wallet.
-- Wallet Info component uses TokenTransfer component to transfer tokens.
+5. Open [http://localhost:3000](http://localhost:3000) in your browser
