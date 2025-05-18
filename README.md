@@ -12,15 +12,6 @@ A modern web3 application that provides a seamless interface for managing and tr
 
 [Visit the live project deployed on Vercel](https://web3-connect-seven.vercel.app/)
 
-## 🚀 Features
-
-- Connect to any Web3 wallet (MetaMask, Rainbow, etc.)
-- View all your token balances in one place
-- Transfer native tokens and ERC20 tokens
-- Real-time balance updates
-- Support for multiple networks
-- Special handling for stETH and USDC balances
-
 ## 🛠️ Tech Stack
 
 - **Framework**: Next.js 15
@@ -30,6 +21,23 @@ A modern web3 application that provides a seamless interface for managing and tr
   - wagmi for blockchain interactions
   - ethers.js for Ethereum utilities
 - **Token Balance API**: 1inch API for fetching the list of tokens.
+
+## 🚀 Features
+
+- Connect to any Web3 wallet (MetaMask, Rainbow, etc.)
+- View all your token balances in one place
+- Transfer native tokens and ERC20 tokens
+- Real-time balance updates
+- Support for multiple networks
+- Special handling for stETH and USDC balances
+
+## 📋 Upcoming Features
+
+- Automatic token detection and balance fetching instead of using 1inch API
+- Additional chain support
+- ERC20 token transfer testing
+- Unit test implementation
+- Loading animations for async operations
 
 ## ⚙️ Environment Variables
 
@@ -60,8 +68,7 @@ NEXT_PUBLIC_WALLET_CONNECT_ID=your_wallet_connect_project_id
 
 3. Set up your environment variables:
 
-   - Copy `.env.example` to `.env.local`
-   - Fill in your API keys
+   - Fill in your API keys in the .env.local file as mentioned above
 
 4. Run the development server:
 
