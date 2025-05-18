@@ -4,11 +4,11 @@ A modern web3 application that provides a seamless interface for managing and tr
 
 ## 🎥 Demo
 
-[Video Demo Link] - Coming Soon
+[Video Demo Link](https://www.loom.com/share/9e9d55db99e844bd8d77524e72a542f2?sid=c46714cb-b676-4942-b9cb-1317a9ef3a46)
 
 ## 🌐 Live Demo
 
-Visit our live demo at [https://example.com](https://example.com)
+[Visit the live project deployed on Vercel](https://web3-connect-seven.vercel.app/)
 
 ## 🚀 Features
 
